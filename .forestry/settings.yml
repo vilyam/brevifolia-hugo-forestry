@@ -10,15 +10,12 @@ sections:
   path: content/about/info.md
   label: Info Page
 - type: directory
-  path: content/blog-posts
-  label: Blog posts
+  path: content/post
+  label: Blog
   create: all
   match: "**/*"
   templates:
   - blog
-- type: document
-  path: content/data/authors.yaml
-  label: Authors List
 - type: heading
   label: Config
 - type: document
