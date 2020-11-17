@@ -5,6 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: test head
+- type: heading
   label: Content
 - type: document
   path: content/about/info.md
